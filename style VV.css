@@ -1,0 +1,513 @@
+
+body{ padding: 2px;
+margin: 12px;}
+.voitur{
+    display: flex;
+    justify-content: space-around;
+   background-color: rgb(4, 4, 7);
+   align-items: center;
+   box-shadow: 0 0 5px red;
+    filter: drop-shadow( 0 0 5px red);
+    cursor: pointer;
+    border-radius: 30px;
+    position: sticky;
+}
+ul{display: flex;}
+ul li{
+    list-style: none; margin: 27px;
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+    background-color: black;
+    border-radius: 12px;
+   transition: 1s;
+     border-bottom: 4px solid #f63e4e;
+}
+ul li:hover{ transform: scale(1.5);box-shadow: 0 0 5px red;
+    filter: drop-shadow( 0 0 7px red);font-size: 23px;
+}
+.voitur img{}
+
+.baniere1,h3,h4+p{
+    text-align: center;
+   color: white;
+}
+span{
+    font-size: 23px; color: red;
+}
+.sitez ol{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;color: white;
+}
+.baniere1{ background-image: url("image 1/html/a28832bd28790cd14caaa00a3d92e04e.jpg");
+    background-size: contain;
+    height: 718px;
+    animation: flock 10s infinite;
+  }
+.baniere1 img{   width: 200px; margin: 55px;
+
+ }
+
+.gg{
+    text-align: center;
+    margin: 21%;
+    
+}
+.baniere1 ol li{ 
+    border-radius:200px ;
+   border-color: white;
+    color: red;
+    background-color: black;
+    padding: 13px;
+      box-shadow: 0 0 37px red;
+      transition: 1s;
+      font-family: fantasy;
+      margin: 24px;
+}
+.baniere1 ol li:hover{
+   transform: scale(1.3);
+}
+.Service{ }
+.Service h2{
+    text-align: center;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    margin: 52px;
+   
+}
+
+.Service,h5,p{
+    color: black;
+    text-align: center; 
+    font-size: 20px;
+}
+h5,p{ color: white;}
+.carte{
+    width: 18rem;
+    padding:0 auto;
+    background-color: green;
+    border-radius: 13px;
+    box-shadow: 4px 2px 2px 6px;
+    transition: 1s;
+}
+
+.carte:hover{
+    transform: scale(1.2);  
+   ;box-shadow: 0 0 5px #dab251 ;
+    filter: drop-shadow( 0 0 5px #dab251);
+}
+.carte img{
+    padding: 0;
+    margin: 0;
+ width: 100%;
+    height: 200px;
+    object-fit: cover;
+    animation: lol 10s infinite;
+}
+.carte img:hover{
+    border-radius: 200px;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+  margin: 52px;;
+}
+ .vitrine{    background: linear-gradient(rgb(23, 163, 218), rgb(129, 33, 33), rgb(4, 8, 2),rgb(24, 14, 14), rgb(129, 33, 113), rgb(19, 16, 1));
+ }
+ .vitrine+h1{
+    text-align: center;
+ }
+ .collection{
+   display: inline-block;
+   justify-content: space-around;
+   border: 1px solid hsl(0, 5%, 4%);
+   margin: 25px;
+   width: 300px;
+   height: 450px;
+      border-radius: 26px;
+       box-shadow: 0 0 5px rgb(240, 255, 24);
+       margin-top: 28px;
+       background-color: green;
+     
+ }
+ .collection img{ border-radius: 26px; width: 100%;  object-fit: cover; }
+.description{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-family: fantasy;
+    color: white;
+    border-radius: 26px;
+ 
+}
+#vid{
+    margin: 12px;
+ padding-left: 47px;
+border-radius: 300px;
+height: 203px;
+object-fit: cover;
+}
+
+.Guarrage{
+    background-image: url("image 1/html/tof (2).jpg");
+    background-size: cover;
+    height: 650px;
+}
+h1{text-align: center;}
+.Guarrage .igs{
+   display: flex;
+   justify-content: space-around;
+      margin-top: 17%;
+ 
+}
+.Guarrage {background-image: url("image 1/3e0dc7483affdb4edf9ec2dc0f97b133.jpg");
+    background-size: cover;
+    object-fit: cover;
+    height: 150vh;
+}
+
+.mes_images{ 
+    margin: 22px;
+    padding: 22px;
+}
+.mes_images img{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 200px;
+    box-shadow: 2px 2px 2px 2px;
+    transition: 1s;
+    background-color: white;
+    cursor: pointer;
+}
+.mes_images img:hover{
+    background-color: red;
+    transform: scale(1.3);
+}
+
+.Achater_piece{
+    background-image: url("image 1/html/tof (2).jpg");
+    background-size: cover;
+    object-fit: cover;
+    height: 150vh;
+    cursor: pointer;
+    animation: back 20s infinite;}
+    @keyframes back{
+    
+    0%{
+        background-image: url("image 1/html/tof (2).jpg");
+        } 
+      50%{
+        background-image: url("image2/9aac0e5a2ed10a965a51195b5aa97b4d.jpg");}
+    100%{
+        background-image: url("image 1/html/tof (2).jpg");}}
+
+
+.achat_piece{
+    display: inline-block;
+    justify-content: space-between;
+   margin-top: 14%;
+
+}
+ .Achater_piece .achat_piece img{
+border-radius: 200px;
+box-shadow: 4px 3px 3px 4px;
+box-shadow: 0 0 5px #dab251 ;
+    filter: drop-shadow( 0 0 5px #dab251);
+ }
+img.IM2{
+ position: absolute;
+right: 23px;
+top: 899%;
+ 
+}
+img.IM1{
+ position: absolute;
+right: 23px;
+top: 870%;
+}
+img.IM3{
+ position: absolute;
+right: 211px;
+top: 890%;
+}
+.Achater_piece .achat_piece h6{
+    color: white;
+    font-size: 45px;
+    background-color: #f63e4e;
+    box-shadow: 2px 2px 2px 2px;
+    margin-bottom: 12px;
+    box-shadow: 0 0 5px #dab251 ;
+    filter: drop-shadow( 0 0 5px #dab251);
+    transition: 1s;
+}
+.Achater_piece .achat_piece p{
+     color: white;
+    font-size: 34px;
+    filter: drop-shadow( 0 0 5px #dab251);
+}
+.Achater_piece .achat_piece .bouton{
+    padding: 22px;
+    width: 150px;
+    background-color: #f63e4e;
+    color: white;
+    margin-left: 59%;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 2px;
+    box-shadow: 0 0 5px #ffffff#dab251;
+    transition: 1s;
+    
+}
+.Achater_piece .achat_piece .bouton:hover{
+    background-color: black;
+    color: rgb(122, 3, 79);
+    box-shadow: 0 0 5px red#dab251 ;
+    filter: drop-shadow( 0 0 5px #38ffff);
+transform: scale(1.3);
+}
+.Achater_piece .achat_piece img:hover{
+     box-shadow: 7px 3px 5px 8px;
+     background-color: red;
+}
+.Achater_piece .achat_piece h6:hover{
+    box-shadow: 9px 0 5px red#dab251 ;
+    transform: scale(1.1);
+}
+
+.mes_camions{ background-image: url("image2/d1149388261710fc05be19d5539a8f96.jpg");
+    background-size: cover;
+  object-fit: cover;
+    animation: bus 10s infinite;}
+.mes_camions h2{ text-align: center; font-size: 34px;
+    filter: drop-shadow( 0 0 5px #dab251);}
+
+.mes_camions .camions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px 300px;
+   margin: 42px;
+   text-align: center;
+   justify-content: center;
+}
+
+.mes_camions p{ font-size: 44px; background-color: #f63e4e; box-shadow: 0  0 80px #dab251 ;
+    filter: drop-shadow( 0 0 5px #ff25c9);}
+
+.mes_camions .camions .card{
+    width: 170px;
+border-radius: 22px;
+box-shadow: 0 10px 20px hsl(0, 5%, 4% );
+cursor: pointer;
+border-color: black;
+background: #ffffff;
+margin-bottom: 27px;
+transition: 1s;
+box-shadow: 0 0 5px #181a19 ;
+    filter: drop-shadow( 0 0 5px #030303);
+   
+}
+.mes_camions .camions .card img{
+    border-radius: 22px;
+    
+}
+.mes_camions .camions .card .prix{
+    padding: 12px;
+    text-align: center;
+    font-weight: 900;
+}
+.mes_camions .camions .card .bouton{
+    padding: 10px;
+    color: rgb(218, 198, 198);
+    background-color: #f63e4e;
+    border-radius: 12px;
+    margin: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+  .mes_camions .camions .card:hover{
+    box-shadow: 0 0 5px #dab251 ;
+    filter: drop-shadow( 0 0 10px #dab251);
+    transform: scale(1.2);
+    background-color: bisque;
+  }  
+.mes_camions .camions .card .bouton:hover{
+    background-color: black;
+     }  
+
+@keyframes bus {
+    0%{
+        background-image: url(image3/99d1257df3676f358561c51810c543e0.jpg);
+    }
+    33.33%{
+        background-image: url(image2/165b7109abc845716f6a2a4176b8d032.jpg);
+    }
+     66.66%{
+        background-image: url(image3/99d1257df3676f358561c51810c543e0.jpg);
+    }
+    100%{
+        background-image: url(image2/88bdd5336fe9e7fc98a963f67e392a37.jpg);
+    }
+}
+
+
+
+.auto_ecole {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 180vh;
+ background: linear-gradient(rgb(23, 163, 218), rgb(129, 33, 33), rgb(4, 8, 2),rgb(24, 14, 14), rgb(129, 33, 113), rgb(19, 16, 1));
+    
+
+}
+.auto_ecole h2 { ditext-align: center;font-size: 44px;}
+.auto_ecole p{color: #030303; font-size: 44px; background-color: #f63e4e;margin: 71px;
+    padding: 26px; border-radius: 200px; }
+.contenant1{
+background-image: url("image3/WhatsApp Image 2025-11-15 à 23.59.53_be9e1ecc.jpg");
+background-size: cover;
+object-fit: cover;
+height: 90vh;
+animation: sall 20s infinite;
+animation: solide-gauche 8s infinite;
+border-radius: 100px; border-style: outset;
+}
+@keyframes sall{
+    0%{
+        background-image: url("image3/WhatsApp Image 2025-11-15 à 23.59.52_f9813ea6.jpg");
+    }
+    33.33%{
+        background-image: url("image3/WhatsApp Image 2025-11-15 à 23.59.53_5dad733e.jpg");
+    }
+    66.66%{
+        background-image: url("image3/43fc4bdd39571241f0e60a604ad8271d.jpg");
+    }
+    100%{
+        background-image: url("image3/WhatsApp Image 2025-11-15 à 23.59.53_be9e1ecc.jpg");
+    }
+}
+.contenant2{
+    background-color: #38ffff;
+    height: 90vh;
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     background-color: #1b1a1a;
+     animation: solide-droite 8s infinite;border-radius: 100px;
+     border-style: outset;
+}
+@keyframes solide-gauche {
+    0%{transform: translateX(0);}
+     50%{transform: translateX(100%);}
+      100%{transform: translateX(0);}
+}
+@keyframes solide-droite{
+    0%{transform: translateX(0);}
+     50%{transform: translateX(-100%);}
+      100%{transform: translateX(0);}
+}
+
+.auto_ecole .contenant2 .cart{
+padding: 10px;
+margin: 15px;
+text-align: center;
+
+}
+.auto_ecole .contenant2 .cart img{
+    border-radius: 220px;
+    box-shadow: 2px 2px 3px 2px;
+    border-style: outset;
+}
+.auto_ecole .contenant2 .cart .description{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.auto_ecole .contenant2 .cart .bouton{
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #f63e4e;
+    font-size: 18px;
+  
+}
+.Inscription{
+    display: inline; justify-content: center; 
+ 
+}
+.inscriver{
+    display: inline;
+   text-align: center;
+}
+.inscriver p{
+   color: #030303; font-size: 38px;
+   
+}
+.dir{
+    display: inline; font-weight: 800;
+}
+
+.Inscription .inscriver .note{
+   background-image: url("image3/WhatsApp Image 2025-11-16 à 00.26.11_ef86cbb5.jpg");
+   background-size: cover;
+   object-fit: cover;
+   border-style: outset;width: 800px; height: 610px;
+   padding: 22px;
+    border-radius: 23px;
+     box-shadow: 0 0 5px #dab251 ;
+    filter: drop-shadow( 0 0 10px #dab251);
+}
+.Inscription .inscriver label{
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+.Inscription .inscriver input{
+    height: 30px;
+    border-radius: 13px;
+    box-shadow: 2px 2px 2px 2px;
+    background-color: burlywood;
+    transition: 1s;
+}
+.Inscription .inscriver input:hover{
+    background: #dab251;
+    transform: scale(1.2);
+}
+#BG{
+    background-color: #7da6ff;padding: 12px; width: 100px;height: 50px;font-family: cursive; 
+    font-size: 20px; border-radius: 12px;
+}
+#BG:hover{
+    background-color: #504b4b;color:white ; cursor: pointer;
+}
+.nos_contact{
+    background-color: #f63e4e; padding: 37px; margin: 24px; height: 300px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+   margin: 53px;
+   justify-content: space-around;
+   align-items: center;
+   padding top: 12px;
+}
+.contact img{
+   float: left;
+   border-radius: 200px;
+}
+
+.localisation {
+    display: flex;
+    justify-content: center;
+   margin: 53px;
+   justify-content: space-around;
+   align-items: center;
+   border-radius: 200px;
+}
+.Numéro{
+    font-size: 44px;
+}
+.mes_images{
+    text-align: center;
+    padding: 1px;
+}
